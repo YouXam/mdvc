@@ -1,0 +1,31 @@
+{
+  "name": "mdvc",
+  "version": "0.0.1",
+  "description": "Convert markdown-vue files to vue components.",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "dev": "vite dev --open test/index.html",
+    "build": "tsc"
+  },
+  "author": "YouXam",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YouXam/mdvc.git"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^13.0.7",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vue": "^3.4.15"
+  },
+  "dependencies": {
+    "markdown-it": "^14.0.0",
+    "vue-sfc-component": "^0.0.7"
+  }
+}
