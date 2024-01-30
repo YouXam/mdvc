@@ -2,7 +2,7 @@
   "name": "mdvc",
   "version": "0.0.1",
   "description": "Convert markdown-vue files to vue components.",
-  "main": "dist/src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "vite dev --open test/index.html",
     "build": "tsc"
