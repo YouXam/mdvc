@@ -25,7 +25,7 @@
     "vue": "^3.4.15"
   },
   "dependencies": {
-    "markdown-it": "^14.0.0",
-    "vue-sfc-component": "^0.0.7"
+    "markdown-it-for-mdvc": "^14.0.0",
+    "vue-sfc-component": "^0.0.8"
   }
 }

@@ -5,12 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  markdown-it:
+  markdown-it-for-mdvc:
     specifier: ^14.0.0
     version: 14.0.0
   vue-sfc-component:
-    specifier: ^0.0.7
-    version: 0.0.7(typescript@5.3.3)
+    specifier: ^0.0.8
+    version: 0.0.8(typescript@5.3.3)
 
 devDependencies:
   '@types/markdown-it':
@@ -696,8 +696,8 @@ packages:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /markdown-it@14.0.0:
-    resolution: {integrity: sha512-seFjF0FIcPt4P9U39Bq1JYblX0KZCjDLFFQPHpL5AzHpqPEKtosxmdq/LTVZnjfH7tjt9BxStm+wXcDBNuYmzw==}
+  /markdown-it-for-mdvc@14.0.0:
+    resolution: {integrity: sha512-lg7QFEkai0UHmvfoO5TCGJPVF6nbUZZTbm1wibxUcBANoNknzVccxcWSdlHObOAldAT/PJco50BNqBn7mXI1pA==}
     hasBin: true
     dependencies:
       argparse: 2.0.1
@@ -948,8 +948,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vue-sfc-component@0.0.7(typescript@5.3.3):
-    resolution: {integrity: sha512-yGCA4WZBVVjxWBCfAr6tgFrE+M+b96WOFrhX5uDNZbqtY6FRq7tBNr182egd2qyJGMMI3kdzfYAG7B8G922jSQ==}
+  /vue-sfc-component@0.0.8(typescript@5.3.3):
+    resolution: {integrity: sha512-RXe6w25OTtlhuSO0okOHrEvq4brR9INqy2G0G6l45luXRaKNVgDxrmr/cXEffqUC/3DoVrn7n2934/AgcJ+FGg==}
     dependencies:
       '@vue/compiler-sfc': 3.4.15
       hash-sum: 2.0.0

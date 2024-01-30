@@ -1,4 +1,4 @@
-import Markdown from 'markdown-it'
+import Markdown from 'markdown-it-for-mdvc'
 
 function extract(md: Markdown) {
     const RE = /^<(script|style)(?=(\s|>|$))/i

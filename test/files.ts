@@ -10,9 +10,11 @@ console.log(123)
 \`\`\`
 
 <h1>{{ msg }}</h1>
-<button @click="msg = msg.split('').reverse().join('')">
-    Reverse
-</button>
+
+
+<button @click="msg = msg.split('').reverse().join('')">Reverse</button>
+
+
 
 <script setup>
 import './main.css'

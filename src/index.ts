@@ -1,7 +1,8 @@
 import convertMarkdown from './markdown';
 import { Component } from 'vue'
 import { defineSFC, File } from 'vue-sfc-component';
-import Markdown from 'markdown-it';
+
+import Markdown from 'markdown-it-for-mdvc';
 
 type MaybePromise<T> = T | Promise<T>
 type FileContent = string | ArrayBuffer | Blob | Response
@@ -44,12 +45,12 @@ export default async function(
                 } else if (file.content instanceof ArrayBuffer) {
                     const decoder = new TextDecoder()
                     file.content = decoder.decode(file.content)
-                } else {
-                    file.content = convertMarkdown(file.content, {
-                        markdown: options?.markdown,
-                        extend: options?.extend
-                    } )
-                }
+                } 
+                file.content = convertMarkdown(file.content, {
+                    markdown: options?.markdown,
+                    extend: options?.extend
+                })
+                console.log(file.content)
                 file.language = "vue"
             }
             if (options?.fileConvertRule) {
