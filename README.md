@@ -2,6 +2,8 @@
 
 mdvc (markdown-vue-component) is a library to compile markdown/vue/js/ts/css files to vue components directly in your browser.
 
+[Live Demo](https://stackblitz.com/edit/vitejs-vite-epm8vd?file=mdvc%2Fmain.md)
+
 ## Installation
 
 ```bash
