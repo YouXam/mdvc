@@ -26,6 +26,6 @@
   },
   "dependencies": {
     "markdown-it-for-mdvc": "^14.0.0",
-    "vue-sfc-component": "^0.0.9"
+    "vue-sfc-component": "^0.0.10"
   }
 }

@@ -24,7 +24,7 @@ export default async function(
         imports?: Record<string, any>;
         files?: Record<string, FileContent | URL>;
         getFile?: (path: string) => MaybePromise<FileContent | URL>;
-        renderStyles?: (css: string) => MaybePromise<string>;
+        renderStyles?: (css: string) => MaybePromise<(() => void)>;
         catch?: (errors: Array<string | Error>) => MaybePromise<void>;
         fileConvertRule?: (file: File) => MaybePromise<void>;
         markdown?: Markdown.Options;
