@@ -50,7 +50,6 @@ export default async function(
                     markdown: options?.markdown,
                     extend: options?.extend
                 })
-                console.log(file.content)
                 file.language = "vue"
             }
             if (options?.fileConvertRule) {
