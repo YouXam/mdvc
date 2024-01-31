@@ -63,6 +63,10 @@ createApp(defineAsyncComponent(() => mdvc('main.md', { files }))).mount('#app')
 
 ```
 
+## Important: a known issue
+
+See [vue-sfc-component](https://github.com/YouXam/vue-sfc-component?tab=readme-ov-file#important-a-known-issue).
+
 ## Definiton
 
 ```ts
