@@ -9,8 +9,8 @@ dependencies:
     specifier: ^14.0.0
     version: 14.0.0
   vue-sfc-component:
-    specifier: ^0.0.10
-    version: 0.0.10(typescript@5.3.3)
+    specifier: ^0.0.11
+    version: 0.0.11(typescript@5.3.3)
 
 devDependencies:
   '@types/markdown-it':
@@ -948,8 +948,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vue-sfc-component@0.0.10(typescript@5.3.3):
-    resolution: {integrity: sha512-K+J0OQvtguJtsdkGGayy3J5sknp+M6tVWhupxIQ6/wzx8cgb/7d49xUXtIRszFYic7UKM6qhjL6fhArZ6XzArg==}
+  /vue-sfc-component@0.0.11(typescript@5.3.3):
+    resolution: {integrity: sha512-zktoKN+OVPOkB5HTntoY/rcQRNT/w/gVkv7zSaY7738q9i9eyayG8Zg4ZrgiqHDTWM24iTG8S82XHRHkwCLHyg==}
     dependencies:
       '@vue/compiler-sfc': 3.4.15
       hash-sum: 2.0.0

@@ -15,6 +15,7 @@ function extract(md: Markdown) {
 function getMarkdown(options?: Markdown.Options, extend?: (md: Markdown) => void) {
     const md = new Markdown({ ...options, html: true })
     md.use(extract)
+    console.log(extend, typeof extend)
     if (typeof extend === 'function') extend(md)
     return md
 }
