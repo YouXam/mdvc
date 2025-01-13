@@ -1,6 +1,6 @@
 {
   "name": "mdvc",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Convert markdown-vue files to vue components.",
   "main": "dist/index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "markdown-it-for-mdvc": "^14.0.0",
-    "vue-sfc-component": "^0.0.16"
+    "vue-sfc-component": "^0.0.17"
   },
   "packageManager": "pnpm@9.15.3+sha512.1f79bc245a66eb0b07c5d4d83131240774642caaa86ef7d0434ab47c0d16f66b04e21e0c086eb61e62c77efc4d7f7ec071afad3796af64892fae66509173893a"
 }
