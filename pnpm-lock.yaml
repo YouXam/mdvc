@@ -12,8 +12,8 @@ importers:
         specifier: ^14.0.0
         version: 14.1.0
       vue-sfc-component:
-        specifier: ^0.0.17
-        version: 0.0.17(typescript@5.7.3)
+        specifier: ^0.0.18
+        version: 0.0.18(typescript@5.7.3)
     devDependencies:
       '@types/markdown-it':
         specifier: ^13.0.7
@@ -619,8 +619,8 @@ packages:
       terser:
         optional: true
 
-  vue-sfc-component@0.0.17:
-    resolution: {integrity: sha512-EDlFlduwucEqeUUbrBRUKcl2zICcOPXya42oLc8Gbw5/n8bIo12t5AQJf/mOOxcj1E85nkTIwKQd4qi9HGPsLQ==}
+  vue-sfc-component@0.0.18:
+    resolution: {integrity: sha512-LUzK7yWGCUyAR12AbiCrHVXxTrsd671LkBRJkQVTIWIAnxc+2N4MouMVxfasPFmaKFVr9t+QIUp9yy/V/1dl9w==}
 
   vue@3.5.13:
     resolution: {integrity: sha512-wmeiSMxkZCSc+PM2w2VRsOYAZC8GdipNFRTsLSfodVqI9mbejKeXEGr8SckuLnrQPGe3oJN5c3K0vpoU9q/wCQ==}
@@ -1139,7 +1139,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vue-sfc-component@0.0.17(typescript@5.7.3):
+  vue-sfc-component@0.0.18(typescript@5.7.3):
     dependencies:
       '@vue/compiler-sfc': 3.5.13
       hash-sum: 2.0.0
